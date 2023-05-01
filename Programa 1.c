@@ -42,14 +42,14 @@ int main()
 																//Escaneando desde teclado en la variable 'num4' en caso de que la decision anterior sea positiva
     }
     	
-    if (num4>bigger){																	//Verificando si el nuevo numero es mayor al anterior mayor
+    	if (num4>bigger){																	//Verificando si el nuevo numero es mayor al anterior mayor
 
-        bigger=num4;
-        printf("\nEl nuevo numero mayor es: %d", bigger);
+        	bigger=num4;
+       		printf("\nEl nuevo numero mayor es: %d", bigger);
 
 		}else {																			//Si no se introdujo un nuevo numero o no es mayor
-    		printf("\nEl numero %d sigue siendo el mayor", bigger);
-       		}
+    			printf("\nEl numero %d sigue siendo el mayor", bigger);
+       			}
     
     printf("\n++++++++++++++++++++++++++++++");
     printf("\n++++++ Fin del programa ++++++");
